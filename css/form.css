@@ -1,0 +1,231 @@
+body {
+    margin: 0; 
+    padding: 0;   
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+header {
+    position: relative;
+    background-image: url("../img/marius-gire-VuN3x0cKC4I-unsplash\ 1.png");
+    width: auto;
+    height: 865px;
+    background-position: center;
+}
+
+.head_head {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-size: 24px;
+    font-weight: 650;
+    padding: 11px 40px 28px 80px;
+    background-color: rgba(217, 217, 217, 0.33);
+    height: 35px;
+}
+
+.sections {
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.nav_link {
+    padding: 15px;
+}
+
+input {
+    margin-top: 10px;
+    margin-right: 250px;
+    background-color: #191970;
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    opacity: 54%;
+    color: white;
+    border: none;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#logo_1 {
+    height: 50px;
+}
+
+.head_text {
+    color: #250839;
+    margin-left: 350px;
+    font-size: 30px;
+}
+
+h2 {
+    position: relative;
+    left: 200px;
+    width: 500px;
+    color: #00E2E2;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.form_container_outer{
+    height: 700px;
+    background-color: #4F92F6;
+}
+.form_container_inner{ 
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
+    background-color: rgba(1, 17, 122, 0.8);
+}
+.form_container{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%; 
+    background-color: rgba(217, 217, 217, 0.9);
+    height: 80%;
+    overflow: scroll;
+    border-radius: 5px;
+}
+#form_header{
+    margin: 0;
+    color: white;
+    padding-top: 30px;
+    position: relative;
+    left: 240px;
+}
+.form_input{
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+    background-color: rgba(1, 17, 122, 1);
+    box-shadow: -1px 0 rgba(66, 66, 66, 0.5), 0 1px rgba(66, 66, 66, 0.5), 1px 0 rgba(66, 66, 66, 0.5), 0 -1px rgba(66, 66, 66, 0.5);
+}
+.form_row{
+    margin: 10px;
+    width: 70%;
+}
+.txtarea{
+    font-size: 18px;
+    width: 100%;
+    resize: none;
+    box-shadow: -1px 0 rgba(66, 66, 66, 0.5), 0 1px rgba(66, 66, 66, 0.5), 1px 0 rgba(66, 66, 66, 0.5), 0 -1px rgba(66, 66, 66, 0.5);
+}
+.form_button{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-right: 35px;
+    padding-bottom: 13px;
+    padding-left: 35px;
+    margin: 10px;
+    margin-top: 5%;
+    background-color:  rgba(1, 17, 122, 0.7);
+    border-radius: 5px;
+    box-shadow: 1px black;
+}
+.form_button:hover{
+    background-color:  rgba(1, 17, 122, 1);
+}
+.form_button:active{
+    position: relative;
+    top: 2px;
+}   
+
+.connections{
+    position: relative;
+    height: 450px;
+    background-color: #4D90BD;
+}
+
+#ConnectionsP{
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+    margin: 0;
+}
+
+.social_networks{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 37.2%;
+    top: 100px; 
+}
+
+#footer_logo{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
+
+.copyright{
+    position: relative;
+    text-align: center;
+    height: 70px;
+    background-color: #506370;
+}
+
+.copyrightP{
+    color: white;
+    position: absolute;
+    bottom: -18px;
+    font-size: 32px;
+    left: 0;
+    right: 0;
+}
+
+#ua_logo_1 {
+    position: relative;
+    left: 150px;
+}
+
+#ua_logo_2 {
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+}
+
+.burger{
+    display: none;
+}
+
+#head_text{
+    position: relative;
+    left: 35.50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+p{
+     text-align: center;
+     color: #250839;
+     font-size: 24px;
+}
+#down_arrow {
+    position: relative;
+    top: 20px;
+    left: 700px;
+    width: 120px;
+    height: 120px;
+}

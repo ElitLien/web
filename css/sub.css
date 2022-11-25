@@ -1,0 +1,79 @@
+.sub{
+    height: 550px;
+    background-color: #3b3bb9;
+}
+#sub_image{
+    height: 200px;
+    position: relative;
+    left: 320px;
+}
+#h2_head {
+    position: relative;
+    left: 340px;
+}
+#p_head {
+    position: relative;
+    left: 140px;
+}
+#subP{
+    font-size: 32px;
+    font-weight: 550;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sub-items{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.sub-item{
+    text-align: center;
+    width: 300px;
+    box-shadow: 2px 1px 5px 1px #1d1c1c91;
+    background-color: #1994c5;
+}
+.sub_icon{
+    padding: 10px 0 px 0;
+    height: 70px;
+}
+.sub_text{
+    text-align: center;
+    position: relative;
+    height: 150px;
+    background-color: rgba(79, 146, 246, 0.5);
+    box-shadow: 2px 1px 5px 1px #1d1c1c91;
+}
+h3{
+    font-size: 24px;
+    padding-top: 10px;
+    margin: 0;
+}
+.sub_name{
+    font-size: 24px;
+    padding: 10px 0 10px 0;
+}
+.sub_price{
+    padding-top: 10px;
+    font-size: 24px;
+}
+.icont_container{
+    padding: 10px 0 10px 0;
+}
+.sub_btn{
+    cursor: pointer;
+    background-color: rgba(31, 192, 255, 0.7);
+    position: relative;
+    top: 35%;
+    width: 60%;
+    height: 40px;
+    border: none;
+    box-shadow: 2px 1px 5px 1px #1d1c1c91;
+}
+.sub_btn:hover{
+    background-color: rgba(31, 192, 255, 1);
+}
+.sub_btn:active{
+    margin-top: 3px;
+    margin-left: 1px;
+}

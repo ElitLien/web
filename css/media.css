@@ -1,0 +1,173 @@
+input {
+    width: 300px;
+    margin-right: 40px;
+    position: relative;
+    left: 200px;
+}
+
+.sections {
+    display: none;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 481px;
+}
+
+h2 {
+    width: 380px;
+    font-size: 24px; 
+    position: absolute;
+    top: -30px;
+    left: 120px;
+}
+
+.head_body {
+    width: 800px;
+    height: 378px;
+}
+
+.head_text {
+    width: 500px;
+    height: 150px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-size: 14px;
+    position: relative;
+}
+
+ul {
+    padding-top: 30px;
+}
+
+#ua_logo_1 {
+    position: relative;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+#ua_logo_2 {
+    position: relative;
+    left: 70px;
+    bottom: 120px;
+    height: 70px;
+    width: 100px;
+}
+
+.reviews-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-item {
+    width: 200px;
+    height: 200px;
+}
+
+.reviewsP {
+    font-size: 16px;
+}
+
+.rating_img {
+    width: 150px;
+    height: 100px;
+}
+
+#reviewsP {
+    padding-bottom: 40px;
+}
+
+#ConnectionsP {
+    font-size: 24px;
+}
+
+#footer_logo {
+    position: relative;
+    left: 31%;
+}
+
+.social_networks {
+    position: relative;
+    left: 25.50%;
+}
+
+.soon-item {
+    width: 200px;
+    height: 200px;
+}
+
+.soon_img {
+    width: 200px;
+}
+
+.soon {
+    height: 700px;
+}
+
+.news {
+    height: 1300px;
+}
+
+.news-item:first-child {
+    position: relative;
+    left: 300px;    
+}
+
+.news-item:last-child {
+    position: relative;
+    top: 620px;
+    right: 300px;
+}
+
+#burger{
+    position: relative;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+}
+.burger{
+    position: relative;
+    right: 110px;
+    width: 10px;
+    bottom: 5px;
+    display: block;
+}
+#burger-shower{
+    display: none;
+}
+.burger-shower:checked ~ .burger-menu {
+    display: block;
+}
+.burger-menu {
+    position: relative;
+    bottom: 50px;
+    display:none;
+}
+.burger-menu ul{
+    list-style-type: none;
+}
+.burger-menu li{
+    position: relative;
+    border-bottom: 2px rgb(49, 49, 49) solid;
+    left: 10px;
+    width: 120px;
+}
+.burger-menu li:last-child{
+  border: none;
+}
+.burger_back{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(111, 114, 114, 0.581);
+    border-radius: 0 0 5% 0;
+    width: 140px;
+}
+    
+#logo_1 {
+    position: relative;
+    left: 180px;
+}
